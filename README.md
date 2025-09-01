@@ -17,9 +17,6 @@ simus-site/
 ├── style.css # Estilos personalizados
 └── script.js # Funções simples do formulário
 
-markdown
-Copiar código
-
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5**
 - **CSS3**
