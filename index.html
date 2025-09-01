@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simus Tecnologia</title>
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Simus Tecnologia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Soluções</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex align-items-center text-center text-light">
+    <div class="container">
+      <h1 class="display-4 fw-bold hero-title">Inovação em Sistemas de Gestão</h1>
+      <p class="lead">Soluções de tecnologia para o varejo e atacado.</p>
+      <a href="#contato" class="btn btn-primary btn-lg mt-3">Fale Conosco</a>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold">Sobre a Simus</h2>
+      <p class="mt-3">
+        A Simus Tecnologia oferece soluções inovadoras para gestão empresarial,
+        com foco em eficiência, segurança e escalabilidade. Nosso ERP <strong>Superus</strong>
+        atende empresas de diversos portes, trazendo integração e automação para
+        processos críticos do dia a dia.
+      </p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Soluções</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center border-primary">
+            <div class="card-body">
+              <h5 class="card-title">ERP Superus</h5>
+              <p class="card-text">Sistema completo para controle de estoque, vendas, finanças e muito mais, adaptado para o seu negócio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center border-primary">
+            <div class="card-body">
+              <h5 class="card-title">Suporte Especializado</h5>
+              <p class="card-text">Equipe de suporte preparada para resolver problemas e orientar usuários em tempo real.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center border-primary">
+            <div class="card-body">
+              <h5 class="card-title">Integrações Inteligentes</h5>
+              <p class="card-text">Conecte o Superus com plataformas de pagamento, balanças, frente de caixa e outros sistemas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Entre em Contato</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2025 Simus Tecnologia. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

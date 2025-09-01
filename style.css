@@ -1,0 +1,20 @@
+/* Hero com imagem de fundo */
+.hero {
+  background: url('https://picsum.photos/1920/600?grayscale&blur=2') no-repeat center center/cover;
+  height: 70vh;
+}
+
+/* Título em preto */
+.hero-title {
+  color: #000;
+}
+
+/* Efeitos simples */
+.grayscale {
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+.grayscale:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
