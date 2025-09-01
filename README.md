@@ -31,8 +31,3 @@ Copiar código
 2. Abra a pasta `simus-site`.
 3. Clique duas vezes em `index.html`.
 4. O site abrirá no navegador.
-
-## 📷 Preview
-![Preview do Site](https://picsum.photos/800/400?random=2)
-
----
